@@ -1,0 +1,140 @@
+<DOCTYPE! html>
+<html>
+    
+<head>
+ <style> 
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+</style>   
+<link rel="stylesheet" type="text/css"  href="stylesheet.css">
+</head>
+<body>
+    <div class="sidenav">
+       
+                
+                     <a href="Home.html" title="Home">Home</a>
+                   <a href="contact.html" title="contact us">contact us</a>
+                    <a href="about.html" title="About us">About Us</a><br><br><br>
+       
+       <a href="vizag.html" title="Vizag">Vizag</a>
+     <a href="hyderabad.html" title="Hyderabad">Hyderabad</a><br><br><br>
+         <a href="join%20us.html" title="join us"> join us</a>
+        <a href="maps%20calculations.html" title="calculations">calculations</a>
+        </div>
+     
+    
+      <div class="sidenav1">
+       
+    <a href="https://www.facebook.com/nikhil.pasupuleti.3" title="facebook" ><img src=22.jpg width=130px height=100px></a><br>
+      <a href="https://www.instagram.com/nikhilpasupuleti/?hl=en" title="Instagram"><img src=23.jpg width=100px height=100px></a><br>
+       <a href="https://twitter.com/Nikhilcoolzzzzz" title="Twitter"><img src=24.png width=100px height=100px></a><br>
+      
+        </div>
+
+    <div class="main">
+<header>
+
+
+
+<img class="nikhil" src="ACE logo (3).png"> 
+    <p style="font-size:50px" "color:white"><marquee scrollamount="17" >ACE COMPUTER ENTERPRISES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACE COMPUTER ENTERPRISES</marquee></p> 
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+	
+</header>
+    
+ <nav class="menu" >
+<ul class="menu">
+    <li><a href="Home.html" title="Home"> Home</a></li>
+    <li><a href="contact.html" title="contact us">Contact us</a></li>
+    <li><a href="about.html" title="About us" > About us</a></li>
+    </ul>
+    
+        </nav>
+        <br>
+    <p1>
+        <h1> VIJAYAWADA</h1>
+    Vijayawada is a metropolis city in the amidst of Andhra Pradesh Capital Region, on the banks of Krishna
+ River in Krishna district, of the Indian state of Andhra Pradesh (AP). It is located 5 km (3.1 mi) away from the state capital Amaravati on other side
+ of Krishna river. The city is a second largest populous city in AP. ,[8] with a population of 1,034,358 (census 2011).[9]While, the urban 
+agglomeration spread in Guntur district covers, Tadepalle Municipality and its outgrowth of Undavalli; Mangalagiri Municipality and its out growths of
+ Navuluru and Atmakur had a population of 1,491,202. As per the G.O. 104 (dated:23-03-2017), the state government had declared Vijayawada Municipal
+ Corporation and its contiguous areas as metropolitan area and Its jurisdiction is spread over an area of 160 km2 (62 sq mi) and has an estimated 
+population of 18 lakhs. Vijayawada is classified as a Y-grade city as per the Sixth Central Pay Commission.
+<br>Vijayawada is one of the rapidly growing urban markets of the country.[53] The sectors that contribute to the economy of the city are, construction,
+ education, entertainment, food processing, hospitality, registrations, transport etc.[54] Based on the recommendations of Sixth Central Pay Commission,
+ it is classified as one of the Y-grade cities of India.[14] The GDP of Vijayawada in 2010 was $3 billion and is estimated to touch $17 billion by 2025.[55]
+The city has trading and exporting markets for agriculture and industrial goods. 
+        
+    </p1>
+    
+     <h3>My Google Maps Demo</h3>
+   <div id="map"><br>
+      <br>
+      <br>
+    </div>
+    <p style="text-align: left;">
+      <style>
+      #map {
+        height: 200px;
+        width: 100%;
+       }
+    </style> </p>
+    <script>
+      function initMap() {
+  var uluru = {lat: 16.5062, lng: 80.6480};   
+   
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 8,
+    center: uluru
+     });
+          
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map  
+  });
+
+ var infoWindowOptions = {
+    content: 'Vijayawada <br>lat: 16.5062,<br> lng: 80.6480'
+};
+
+          
+  var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+google.maps.event.addListener(marker,'mouseover',function(e){
+  
+  infoWindow.open(map, marker);
+  
+});
+
+}
+    </script>
+    <div style="text-align: left;">
+      <script async="" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsoiP3jgf2wiOoxLNaBLVYJ8xGEa2-290&callback=initMap"></script></div>
+    
+
+            <div>
+                <footer>Copyright &copy; ACE Computer Enterprises LTD<br>All rights reserved</footer>
+        </div>
+    </div>
+        
+    </body>
+    
+</html>
+    
+    
